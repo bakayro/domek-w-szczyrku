@@ -1,0 +1,113 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?72a231e77c7250fa79ef2b0b23194e0a") format("truetype"),
+url("./flaticon.woff?72a231e77c7250fa79ef2b0b23194e0a") format("woff"),
+url("./flaticon.woff2?72a231e77c7250fa79ef2b0b23194e0a") format("woff2"),
+url("./flaticon.eot?72a231e77c7250fa79ef2b0b23194e0a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?72a231e77c7250fa79ef2b0b23194e0a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "facebook": "\f101",
+    "phone-call": "\f102",
+    "maps-and-flags": "\f103",
+    "black-back-closed-envelope-shape": "\f104",
+    "left-arrow": "\f105",
+    "next": "\f106",
+    "hob": "\f107",
+    "kitchen": "\f108",
+    "microwave": "\f109",
+    "electric-kettle": "\f10a",
+    "dish": "\f10b",
+    "refrigerator": "\f10c",
+    "steam-iron": "\f10d",
+    "hair-dryer": "\f10e",
+    "vacuum": "\f10f",
+    "double-bed": "\f110",
+    "nightstand": "\f111",
+    "armchair": "\f112",
+    "television": "\f113",
+    "single-bed": "\f114",
+    "grill": "\f115",
+    "bed-sheets": "\f116",
+);
+
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-maps-and-flags:before {
+    content: map-get($flaticon-map, "maps-and-flags");
+}
+.flaticon-black-back-closed-envelope-shape:before {
+    content: map-get($flaticon-map, "black-back-closed-envelope-shape");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-next:before {
+    content: map-get($flaticon-map, "next");
+}
+.flaticon-hob:before {
+    content: map-get($flaticon-map, "hob");
+}
+.flaticon-kitchen:before {
+    content: map-get($flaticon-map, "kitchen");
+}
+.flaticon-microwave:before {
+    content: map-get($flaticon-map, "microwave");
+}
+.flaticon-electric-kettle:before {
+    content: map-get($flaticon-map, "electric-kettle");
+}
+.flaticon-dish:before {
+    content: map-get($flaticon-map, "dish");
+}
+.flaticon-refrigerator:before {
+    content: map-get($flaticon-map, "refrigerator");
+}
+.flaticon-steam-iron:before {
+    content: map-get($flaticon-map, "steam-iron");
+}
+.flaticon-hair-dryer:before {
+    content: map-get($flaticon-map, "hair-dryer");
+}
+.flaticon-vacuum:before {
+    content: map-get($flaticon-map, "vacuum");
+}
+.flaticon-double-bed:before {
+    content: map-get($flaticon-map, "double-bed");
+}
+.flaticon-nightstand:before {
+    content: map-get($flaticon-map, "nightstand");
+}
+.flaticon-armchair:before {
+    content: map-get($flaticon-map, "armchair");
+}
+.flaticon-television:before {
+    content: map-get($flaticon-map, "television");
+}
+.flaticon-single-bed:before {
+    content: map-get($flaticon-map, "single-bed");
+}
+.flaticon-grill:before {
+    content: map-get($flaticon-map, "grill");
+}
+.flaticon-bed-sheets:before {
+    content: map-get($flaticon-map, "bed-sheets");
+}

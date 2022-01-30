@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?72a231e77c7250fa79ef2b0b23194e0a") format("truetype"),
+url("./flaticon.woff?72a231e77c7250fa79ef2b0b23194e0a") format("woff"),
+url("./flaticon.woff2?72a231e77c7250fa79ef2b0b23194e0a") format("woff2"),
+url("./flaticon.eot?72a231e77c7250fa79ef2b0b23194e0a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?72a231e77c7250fa79ef2b0b23194e0a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-facebook:before {
+    content: "\f101";
+}
+.flaticon-phone-call:before {
+    content: "\f102";
+}
+.flaticon-maps-and-flags:before {
+    content: "\f103";
+}
+.flaticon-black-back-closed-envelope-shape:before {
+    content: "\f104";
+}
+.flaticon-left-arrow:before {
+    content: "\f105";
+}
+.flaticon-next:before {
+    content: "\f106";
+}
+.flaticon-hob:before {
+    content: "\f107";
+}
+.flaticon-kitchen:before {
+    content: "\f108";
+}
+.flaticon-microwave:before {
+    content: "\f109";
+}
+.flaticon-electric-kettle:before {
+    content: "\f10a";
+}
+.flaticon-dish:before {
+    content: "\f10b";
+}
+.flaticon-refrigerator:before {
+    content: "\f10c";
+}
+.flaticon-steam-iron:before {
+    content: "\f10d";
+}
+.flaticon-hair-dryer:before {
+    content: "\f10e";
+}
+.flaticon-vacuum:before {
+    content: "\f10f";
+}
+.flaticon-double-bed:before {
+    content: "\f110";
+}
+.flaticon-nightstand:before {
+    content: "\f111";
+}
+.flaticon-armchair:before {
+    content: "\f112";
+}
+.flaticon-television:before {
+    content: "\f113";
+}
+.flaticon-single-bed:before {
+    content: "\f114";
+}
+.flaticon-grill:before {
+    content: "\f115";
+}
+.flaticon-bed-sheets:before {
+    content: "\f116";
+}
